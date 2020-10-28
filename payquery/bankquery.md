@@ -1,5 +1,7 @@
 **对银行卡支付回调`onPayUnknown`的订单调用此方法来查询订单的最终状态，参照`demo`中的[CardPayQueryActivity](https://github.com/mr-yang/PayPluginDemo/blob/master/app/src/main/java/com/umpay/payplugindemo/CardPayQueryActivity.java)类**
 
+<span style="color:red">注意：调用此接口之前一定要确保收到`2.2银行卡支付`接口响应之后调用</span>
+
 
 ```java
 CardPayQueryRequest request = new CardPayQueryRequest();
